@@ -1,1 +1,1 @@
-SELECT b.title FROM books b,books_subjects x WHERE x.book=b.id AND x.subject in(4,9);
+SELECT b.title FROM books b , books_subjects s WHERE s.book=b.id AND s.subject IN (3,8);
