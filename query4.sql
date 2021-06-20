@@ -1,1 +1,1 @@
-SELECT s.name FROM books b,books_subjects x,subjects s WHERE b.id=x.book AND b.title='Atomic Habits' AND s.id=x.subject;
+SELECT s.name FROM subjects s,books_subjects b WHERE b.subject=s.id  AND b.book=6 ;
